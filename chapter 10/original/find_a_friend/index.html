@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Find A Friend</title>
+        <link rel="stylesheet" href="style.css" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    </head>
+    <body>
+      <section id="find">
+        <h1>Find A Friend</h1>
+        <input type="text" id="friendName" placeholder="What's your friend's name?" />
+        <button id="friendSubmit">Submit</button>
+        <ul id="friendsList"></ul>
+        <a href="#" target="make">Make a new friend</a>
+      </section>
+
+      <section id="make" style="display: none">
+        <h1>Make A Friend</h1>
+        <form id="newFriend">
+            <input type="text" id="newName" placeholder="What's your friend's name?" />
+            <input type="tel" id="newPhone" placeholder="What's your friend's phone number?" />
+            <input type="email" id="newEmail" placeholder="What's your friend's email?" />
+        </form>
+        <button id="newSubmit">Submit</button>
+        <a href="#" target="find">Find an old friend</a>
+      </section>
+
+        <a href="http://en.wikipedia.org/wiki/Friendship">What is this friendship you speak of?</a>
+    </body>
+    <script src="phonegap.js"></script>
+    <script src="ChildBrowser.js"></script>
+    <script src="xui.js"></script>
+    <script src="mustache.js"></script>
+    <script src="app.js"></script>
+</html>

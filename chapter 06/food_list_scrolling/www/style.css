@@ -1,0 +1,42 @@
+body {
+    background: white;
+}
+div#main, #modal {
+    background: #ccc;
+    border: black 1px solid;
+    height: 82%;
+    padding: 10%;
+    width: 80%;
+    -webkit-border-radius: 8px;
+}
+#modal {
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 0;
+    color: white;
+    -webkit-transition-duration: 800ms;
+    -webkit-transform: translate3d(0,600px,0);
+    font-family: helvetica, sans-serif;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.deleter:after {
+    color: red;
+    font-family: sans-serif;
+    font-size: 10px;
+    content: 'X';
+}
+#myCanvas {
+    position: absolute;
+    z-index: 0;
+    left: 280px;
+    opacity: 0.8;
+    background: #ccf;
+}
+#wrapper {
+    position: relative;
+    z-index: 1;
+    width: auto;
+    height: 150px;
+    overflow: scroll;
+}

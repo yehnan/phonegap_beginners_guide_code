@@ -1,0 +1,35 @@
+body {
+    background: #69F;
+    font-family: Helvetica Neue, Arial;
+}
+h1, input, button, ul {
+    -webkit-box-shadow: #03c 4px 4px 3px;
+    border-radius: 15px;
+    display: block;
+    margin: 8% auto;
+    padding: 3% 5%;
+    width: 65%;
+}
+h1 {
+    background: blue;
+    color: white;
+    text-align: center;
+}
+input, button {
+    -webkit-appearance: none;
+    border: transparent;
+    font-size: 0.8em;
+}
+button {
+    background: #06C;
+    color: #9CF;
+    font-weight: bold;
+}
+button:active {
+    background: #9CF;
+    color: #06C;
+}
+ul {
+    color: #CCF;
+    font-weight: bold;
+}

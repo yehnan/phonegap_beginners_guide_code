@@ -1,0 +1,386 @@
+{
+  "status": "OK",
+  "results": [ {
+    "types": [ "street_address" ],
+    "formatted_address": "106-188 King Edward Ave W, Vancouver, BC V5Y 2H6, Canada",
+    "address_components": [ {
+      "long_name": "106-188",
+      "short_name": "106-188",
+      "types": [ "street_number" ]
+    }, {
+      "long_name": "King Edward Ave W",
+      "short_name": "King Edward Ave W",
+      "types": [ "route" ]
+    }, {
+      "long_name": "Vancouver",
+      "short_name": "Vancouver",
+      "types": [ "locality", "political" ]
+    }, {
+      "long_name": "Greater Vancouver Regional District",
+      "short_name": "Greater Vancouver Regional District",
+      "types": [ "administrative_area_level_2", "political" ]
+    }, {
+      "long_name": "British Columbia",
+      "short_name": "BC",
+      "types": [ "administrative_area_level_1", "political" ]
+    }, {
+      "long_name": "Canada",
+      "short_name": "CA",
+      "types": [ "country", "political" ]
+    }, {
+      "long_name": "V5Y 2H6",
+      "short_name": "V5Y 2H6",
+      "types": [ "postal_code" ]
+    } ],
+    "geometry": {
+      "location": {
+        "lat": 49.2488872,
+        "lng": -123.1087909
+      },
+      "location_type": "RANGE_INTERPOLATED",
+      "viewport": {
+        "southwest": {
+          "lat": 49.2457533,
+          "lng": -123.1117910
+        },
+        "northeast": {
+          "lat": 49.2520486,
+          "lng": -123.1054957
+        }
+      },
+      "bounds": {
+        "southwest": {
+          "lat": 49.2488881,
+          "lng": -123.1098470
+        },
+        "northeast": {
+          "lat": 49.2489138,
+          "lng": -123.1074397
+        }
+      }
+    }
+  }, {
+    "types": [ "postal_code" ],
+    "formatted_address": "Vancouver, BC V5Y 4B4, Canada",
+    "address_components": [ {
+      "long_name": "V5Y 4B4",
+      "short_name": "V5Y 4B4",
+      "types": [ "postal_code" ]
+    }, {
+      "long_name": "Vancouver",
+      "short_name": "Vancouver",
+      "types": [ "locality", "political" ]
+    }, {
+      "long_name": "Greater Vancouver Regional District",
+      "short_name": "Greater Vancouver Regional District",
+      "types": [ "administrative_area_level_2", "political" ]
+    }, {
+      "long_name": "British Columbia",
+      "short_name": "BC",
+      "types": [ "administrative_area_level_1", "political" ]
+    }, {
+      "long_name": "Canada",
+      "short_name": "CA",
+      "types": [ "country", "political" ]
+    } ],
+    "geometry": {
+      "location": {
+        "lat": 49.2505280,
+        "lng": -123.1098280
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "southwest": {
+          "lat": 49.2473804,
+          "lng": -123.1129756
+        },
+        "northeast": {
+          "lat": 49.2536756,
+          "lng": -123.1066804
+        }
+      }
+    }
+  }, {
+    "types": [ "postal_code" ],
+    "formatted_address": "Vancouver, BC V5Y 2H9, Canada",
+    "address_components": [ {
+      "long_name": "V5Y 2H9",
+      "short_name": "V5Y 2H9",
+      "types": [ "postal_code" ]
+    }, {
+      "long_name": "Vancouver",
+      "short_name": "Vancouver",
+      "types": [ "locality", "political" ]
+    }, {
+      "long_name": "Greater Vancouver Regional District",
+      "short_name": "Greater Vancouver Regional District",
+      "types": [ "administrative_area_level_2", "political" ]
+    }, {
+      "long_name": "British Columbia",
+      "short_name": "BC",
+      "types": [ "administrative_area_level_1", "political" ]
+    }, {
+      "long_name": "Canada",
+      "short_name": "CA",
+      "types": [ "country", "political" ]
+    } ],
+    "geometry": {
+      "location": {
+        "lat": 49.2488090,
+        "lng": -123.1085000
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "southwest": {
+          "lat": 49.2454804,
+          "lng": -123.1119077
+        },
+        "northeast": {
+          "lat": 49.2517757,
+          "lng": -123.1056124
+        }
+      },
+      "bounds": {
+        "southwest": {
+          "lat": 49.2483411,
+          "lng": -123.1100712
+        },
+        "northeast": {
+          "lat": 49.2489150,
+          "lng": -123.1074489
+        }
+      }
+    }
+  }, {
+    "types": [ "postal_code_prefix", "postal_code" ],
+    "formatted_address": "Vancouver, BC V5Y, Canada",
+    "address_components": [ {
+      "long_name": "V5Y",
+      "short_name": "V5Y",
+      "types": [ "postal_code_prefix", "postal_code" ]
+    }, {
+      "long_name": "Vancouver",
+      "short_name": "Vancouver",
+      "types": [ "locality", "political" ]
+    }, {
+      "long_name": "Greater Vancouver Regional District",
+      "short_name": "Greater Vancouver Regional District",
+      "types": [ "administrative_area_level_2", "political" ]
+    }, {
+      "long_name": "British Columbia",
+      "short_name": "BC",
+      "types": [ "administrative_area_level_1", "political" ]
+    }, {
+      "long_name": "Canada",
+      "short_name": "CA",
+      "types": [ "country", "political" ]
+    } ],
+    "geometry": {
+      "location": {
+        "lat": 49.2457415,
+        "lng": -123.1092431
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "southwest": {
+          "lat": 49.2176577,
+          "lng": -123.1182862
+        },
+        "northeast": {
+          "lat": 49.2747081,
+          "lng": -123.1018352
+        }
+      },
+      "bounds": {
+        "southwest": {
+          "lat": 49.2176577,
+          "lng": -123.1182862
+        },
+        "northeast": {
+          "lat": 49.2747081,
+          "lng": -123.1018352
+        }
+      }
+    }
+  }, {
+    "types": [ "sublocality", "political" ],
+    "formatted_address": "Riley Park, Vancouver, BC, Canada",
+    "address_components": [ {
+      "long_name": "Riley Park",
+      "short_name": "Riley Park",
+      "types": [ "sublocality", "political" ]
+    }, {
+      "long_name": "Vancouver",
+      "short_name": "Vancouver",
+      "types": [ "locality", "political" ]
+    }, {
+      "long_name": "Greater Vancouver Regional District",
+      "short_name": "Greater Vancouver Regional District",
+      "types": [ "administrative_area_level_2", "political" ]
+    }, {
+      "long_name": "British Columbia",
+      "short_name": "BC",
+      "types": [ "administrative_area_level_1", "political" ]
+    }, {
+      "long_name": "Canada",
+      "short_name": "CA",
+      "types": [ "country", "political" ]
+    } ],
+    "geometry": {
+      "location": {
+        "lat": 49.2404860,
+        "lng": -123.1014720
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "southwest": {
+          "lat": 49.2318250,
+          "lng": -123.1280899
+        },
+        "northeast": {
+          "lat": 49.2567810,
+          "lng": -123.0899159
+        }
+      },
+      "bounds": {
+        "southwest": {
+          "lat": 49.2318250,
+          "lng": -123.1280899
+        },
+        "northeast": {
+          "lat": 49.2567810,
+          "lng": -123.0899159
+        }
+      }
+    }
+  }, {
+    "types": [ "locality", "political" ],
+    "formatted_address": "Vancouver, BC, Canada",
+    "address_components": [ {
+      "long_name": "Vancouver",
+      "short_name": "Vancouver",
+      "types": [ "locality", "political" ]
+    }, {
+      "long_name": "Greater Vancouver Regional District",
+      "short_name": "Greater Vancouver Regional District",
+      "types": [ "administrative_area_level_2", "political" ]
+    }, {
+      "long_name": "British Columbia",
+      "short_name": "BC",
+      "types": [ "administrative_area_level_1", "political" ]
+    }, {
+      "long_name": "Canada",
+      "short_name": "CA",
+      "types": [ "country", "political" ]
+    } ],
+    "geometry": {
+      "location": {
+        "lat": 49.2612260,
+        "lng": -123.1139268
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "southwest": {
+          "lat": 49.1981770,
+          "lng": -123.2247400
+        },
+        "northeast": {
+          "lat": 49.3172939,
+          "lng": -123.0230680
+        }
+      },
+      "bounds": {
+        "southwest": {
+          "lat": 49.1981770,
+          "lng": -123.2247400
+        },
+        "northeast": {
+          "lat": 49.3172939,
+          "lng": -123.0230680
+        }
+      }
+    }
+  }, {
+    "types": [ "administrative_area_level_2", "political" ],
+    "formatted_address": "Greater Vancouver Regional District, British Columbia, Canada",
+    "address_components": [ {
+      "long_name": "Greater Vancouver Regional District",
+      "short_name": "Greater Vancouver Regional District",
+      "types": [ "administrative_area_level_2", "political" ]
+    }, {
+      "long_name": "British Columbia",
+      "short_name": "BC",
+      "types": [ "administrative_area_level_1", "political" ]
+    }, {
+      "long_name": "Canada",
+      "short_name": "CA",
+      "types": [ "country", "political" ]
+    } ],
+    "geometry": {
+      "location": {
+        "lat": 49.2501243,
+        "lng": -123.0824217
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "southwest": {
+          "lat": 49.0020560,
+          "lng": -123.6224360
+        },
+        "northeast": {
+          "lat": 49.5745549,
+          "lng": -122.4082620
+        }
+      },
+      "bounds": {
+        "southwest": {
+          "lat": 49.0020560,
+          "lng": -123.6224360
+        },
+        "northeast": {
+          "lat": 49.5745549,
+          "lng": -122.4082620
+        }
+      }
+    }
+  }, {
+    "types": [ "administrative_area_level_1", "political" ],
+    "formatted_address": "British Columbia, Canada",
+    "address_components": [ {
+      "long_name": "British Columbia",
+      "short_name": "BC",
+      "types": [ "administrative_area_level_1", "political" ]
+    }, {
+      "long_name": "Canada",
+      "short_name": "CA",
+      "types": [ "country", "political" ]
+    } ],
+    "geometry": {
+      "location": {
+        "lat": 53.7266683,
+        "lng": -127.6476206
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "southwest": {
+          "lat": 48.2245560,
+          "lng": -139.0570700
+        },
+        "northeast": {
+          "lat": 60.0001490,
+          "lng": -114.0542210
+        }
+      },
+      "bounds": {
+        "southwest": {
+          "lat": 48.2245560,
+          "lng": -139.0570700
+        },
+        "northeast": {
+          "lat": 60.0001490,
+          "lng": -114.0542210
+        }
+      }
+    }
+  } ]
+}

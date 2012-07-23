@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>Sites Without Servers</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+  </head>
+  <body>
+    <div id="main">
+      <div id="noVideo"></div>
+      <canvas id="myCanvas" width="50" height="400"></canvas>
+      <h1>List Some Food</h1>
+      <form id="foodForm">
+        <input type="text" id="foodName" placeholder="A name of a food" />
+        <button id="submitFood">Tell Us!</button><br />
+      </form>
+      <div id="foodDescription">
+      </div>
+	  <div id="wrapper">
+        <ul id="foodList">
+        </ul>
+	  </div>
+    </div>
+	<div id="modal">
+    	<h1>Latest Tweet about "<span id="search_term"></span>"</h1>
+    	<blockquote id="tweet"></blockquote>
+    	<p>by <strong id="author"></strong></p>
+	</div>
+	<script src="cordova-1.8.1.js"></script>
+	<script src="xui.js"></script>
+	<script src="mustache.js"></script>
+	<script src="iscroll.js"></script>
+	<script src="food-list.js"></script>
+  </body>
+</html>

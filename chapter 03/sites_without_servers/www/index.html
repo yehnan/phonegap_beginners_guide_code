@@ -1,0 +1,58 @@
+﻿<html>
+  <head>
+    <title>Sites Without Servers</title>
+    <style>
+      body {
+        background: white;
+      }
+      div#main {
+        background: #ccc;
+        border: black 1px solid;
+        height: 82%;
+        padding: 10%;
+        width: 80%;
+        -webkit-border-radius: 8px;
+      }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var foodList = document.getElementById('foodList');
+        var foodField = document.getElementById('foodName');
+        var l = window.localStorage.length;
+        var i = 0;
+        var storedFoodName;
+        function addNewFoodItem(foodName) {
+          var newFoodItem = document.createElement('li');
+          newFoodItem.innerHTML = foodName;
+          foodList.appendChild(newFoodItem);
+        }
+        for (i; i < l; i++) {
+          storedFoodName = window.localStorage.key(i);
+          if (storedFoodName.match(/^food[.]/))
+            addNewFoodItem(window.localStorage.getItem(storedFoodName));
+        }
+        document.getElementById("foodForm").addEventListener("submit", function (evt) {
+          evt.preventDefault();
+          var newFood = foodField.value;
+          var foodKey = "food." + (window.localStorage.length + 1);
+          addNewFoodItem(newFood)
+          window.localStorage.setItem(foodKey, newFood);
+          foodField.value = "";
+          return false;
+        }, false);
+      });
+    </script>
+  </head>
+  <body>
+    <div id="main">
+      <h1>List Some Food</h1>
+      <form id="foodForm">
+        <input type="text" id="foodName" placeholder="A name of a food" />
+        <button id="submitFood">Tell Us!</button><br />
+      </form>
+      <ul id="foodList">
+      </ul>
+    </div>
+  </body>
+</html>

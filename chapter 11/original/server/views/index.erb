@@ -1,0 +1,19 @@
+<h1>News Stories</h1>
+
+<% stories.each do |story| %>
+  <h2><%= story[:title] %></h2>
+  <p><%= story[:body] %></p>
+  <p><small>Reported at <%= story[:time] %></small></p>
+<% end %>
+
+<h3 style="margin-top: 50px">Submit your own story:</h3>
+
+<form action="/story" method="post">
+  <p><b>Title</b>
+    <input type="text" name="title" /></p>
+
+  <p><b>Body</b>
+    <textarea name="body"></textarea></p>
+
+  <input type="submit">
+</form>

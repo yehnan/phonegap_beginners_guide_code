@@ -1,0 +1,22 @@
+.screen {
+    width: 320px;
+    height: 480px;
+    float: left;
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+	
+    -webkit-transition-duration: 600ms;
+    -webkit-transition-property: translate;
+    -webkit-transform: translate(-320px,0px);
+}
+
+.screen#red         { 
+    -webkit-transform: translate(0px,0px);
+    background: red; 
+}
+.screen#green       { background: green; }
+.screen#refactor    { background: blue; }

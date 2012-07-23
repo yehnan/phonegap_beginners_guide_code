@@ -1,0 +1,32 @@
+﻿<html>
+  <head>
+    <title>You Are The Best</title>
+    <style>
+      body {
+        background: #ff0;
+      }
+      div#main {
+        background: #ccf;
+        height: 460px;
+        width: 320px;
+        padding: 10px;
+        -webkit-border-radius: 8px;
+      }
+    </style>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        alert("We really do think that you are the best.")
+        document.getElementById("likeMe").addEventListener("click", alertCompliment, false);
+      }, false);
+      function alertCompliment() {
+        alert("We really do think that you are the best");
+      }
+    </script>
+  </head>
+  <body>
+    <div id="main">
+      You're really great!<br>
+      <button id="likeMe">Tell me I’m great</button>
+    </div>
+  </body>
+</html>

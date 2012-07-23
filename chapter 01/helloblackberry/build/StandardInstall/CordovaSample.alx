@@ -1,0 +1,11 @@
+<loader version="1.0" >
+<application id="CordovaSample">
+<name>Cordova Sample</name>
+<description>A sample application written with Cordova.</description>
+<version>1.0.0.0</version>
+<fileset Java="1.45">
+<directory></directory>
+<files>CordovaSample.cod</files>
+</fileset>
+</application>
+</loader>
