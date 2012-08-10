@@ -1,0 +1,6 @@
+original 原文書所附的原始碼
+
+server 伺服器的部份
+client 客戶端的部份
+client_cache 加上快取機制的客戶端
+
