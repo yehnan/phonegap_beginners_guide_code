@@ -1,0 +1,4 @@
+original 原文書所附的原始碼
+postcard_picture 使用相機API取得圖像
+postcard_filepath 取得圖像的檔案路徑
+postcard_saving 自行儲存圖像
