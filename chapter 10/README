@@ -4,8 +4,11 @@ phonegap-plugins_iOS_ChildBrowser PhoneGap本ChildBrowseriOS
 phonegap-plugins_Android_ChildBrowser PhoneGap本ChildBrowserAndroid
 
 Find A Friend эFind A Friend
-FindAFriend Find A FriendiOS盡ChildBrowser本
+FindAFriend Find A FriendiOS盡ChildBrowser本PhoneGap 1.8.1
+FindAFriendGap2 Find A FriendiOS盡ChildBrowser本PhoneGap 2.0.0
 
 BatteryStatus 筿篈呼
-iOSBatteryStatus 筿篈iOS
-Ch10plugins 筿篈Android
+iOSBatteryStatus 筿篈iOSPhoneGap 1.8.1
+iOSBatteryStatusGap2 筿篈iOSPhoneGap 2.0.0
+Ch10plugins 筿篈AndroidPhoneGap 1.8.1
+Ch10pluginsGap2 筿篈AndroidPhoneGap 2.0.0
